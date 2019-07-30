@@ -1,4 +1,4 @@
-FROM atmoz/tarsnap
+FROM drubin/tarsnap@sha256:09381e3ef43f2d136dd6856f0b4a0e289ec5d8ae2a24dc47ba963e264f27f05e
 LABEL maintainer="Dang Mai <contact@dangmai.net>"
 
 ENV TARSNAPPER_VERSION 0.4.0
