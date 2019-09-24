@@ -5,6 +5,7 @@ ENV TARSNAPPER_VERSION 0.4.0
 
 RUN apt-get -q update && apt-get install -qy \
         python-pip \
+        curl \
         cron \
     && pip install tarsnapper==$TARSNAPPER_VERSION -i https://pypi.python.org/simple \
     && apt-get autoremove -y \
